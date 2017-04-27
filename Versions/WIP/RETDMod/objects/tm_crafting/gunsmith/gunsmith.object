@@ -1,0 +1,47 @@
+{
+  "objectName" : "gunsmith",
+  "colonyTags" : ["crafting"],
+  "printable" : false,
+  "price" : 30,
+  "rarity" : "Uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftinggunsmith.config",
+    "filter" : [ "gunsmith" ]
+  },
+  "description" : "Lorem ipsum",
+  "shortdescription" : "^#ff0000;Gunsmith^white;",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "apexDescription" : "Lorem ipsum",
+  "avianDescription" : "Lorem ipsum",
+  "floranDescription" : "Lorem ipsum",
+  "glitchDescription" : "Lorem ipsum",
+  "humanDescription" : "Lorem ipsum",
+  "hylotlDescription" : "Lorem ipsum",
+  "novakidDescription" : "Lorem ipsum",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "gunsmith.png:<color>.<frame>",  
+      "imagePosition" : [0, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "gunsmith.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 1.0,
+	  "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 20 },
+	{ "item" : "corefragmentore", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "m4a1",
+    "count" : 1
+  },
+  "groups" : [ "gunsmith", "weapons", "all" ]
+}

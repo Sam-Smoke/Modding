@@ -1,0 +1,7 @@
+{
+  "friendlyname" : "testMod",
+  "name" : "RETD Mod",
+  "author" : "RETD",
+  "description" : "Test Mod - Could crash. Also adds stuff",
+  "version" : "0.4"
+}

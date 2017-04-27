@@ -1,0 +1,21 @@
+{
+  "projectileName" : "sbomb",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "timeToLive" : 5,
+  "image" : "sbomb.png",
+  "animationCycle" : 5,
+  "lightColor" : [105, 64, 0],
+  "frameNumber" : 7,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/throwables/sbomb/superbombexplosion.config"
+    }
+  ],
+  "power" : 6000,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-60, 0], [-40, -40], [0, -60], [40, -40], [60, 0], [40, 40], [0, 60], [-40, 40] ],
+  "emitters" : [ "sparks" ]
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "testore",
+  "price" : 10,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "testore.png",
+  "description" : "Throu fusion once' Pixels with th'ou power of iron. Tis rock of glitches was born.",
+  "shortdescription" : "Test Ore",
+  "itemTags" : [ "reagent" ],
+  "radioMessagesOnPickup" : [ "pickupore" ],
+  "learnBlueprintsOnPickup" : [
+    "testbar"
+  ]
+}

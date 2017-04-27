@@ -1,0 +1,22 @@
+{
+  "itemName" : "damageaugmentx",
+  "price" : 15000,
+  "rarity" : "Legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "damageaugmentx.png",
+  "description" : "An EPP module that extremly boosts your damage output.",
+  "shortdescription" : "Damage X Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "damagex",
+    "displayName" : "Damage X",
+    "displayIcon" : "/items/augments/damageaugmentx.png",
+    "effects" : [ "rageaugmentx" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

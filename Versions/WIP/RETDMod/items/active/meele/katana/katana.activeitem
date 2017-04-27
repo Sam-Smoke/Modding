@@ -1,0 +1,35 @@
+{
+  "itemName" : "katana",
+  "price" : 100,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A sword forge in the far east.",
+  "shortdescription" : "Eastern Katana",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "broadsword"],
+  
+  "inventoryIcon" : "katana.png",
+  
+  "animation" : "katana.animation",
+  "animationParts" : {
+    "blade" : "blade.png",
+    "handle" : "handle.png"
+  },
+  
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "baseDps" : 20.0
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+
+}

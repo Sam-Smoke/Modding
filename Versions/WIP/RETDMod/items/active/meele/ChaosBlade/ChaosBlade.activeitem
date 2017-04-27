@@ -1,0 +1,35 @@
+{
+  "itemName" : "ChaosBlade",
+  "price" : 1337,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A sword forge with the will to destroy.",
+  "shortdescription" : "Chaos Blade",
+  "tooltipKind" : "base",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "broadsword"],
+  
+  "inventoryIcon" : "katana.png",
+  
+  "animation" : "ChaosBlade.animation",
+  "animationParts" : {
+    "blade" : "blade.png",
+    "handle" : "handle.png"
+  },
+  
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "baseDps" : 7000.0
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+
+}

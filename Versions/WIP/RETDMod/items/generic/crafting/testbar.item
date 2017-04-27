@@ -1,0 +1,13 @@
+{
+  "itemName" : "testbar",
+  "price" : 20,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "testbar.png",
+  "description" : "By further smelting a new material was born. While being able to hold a stable form, this material can further increase its power by fusion.",
+  "shortdescription" : "Test Bar",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "deagle"
+  ]
+}

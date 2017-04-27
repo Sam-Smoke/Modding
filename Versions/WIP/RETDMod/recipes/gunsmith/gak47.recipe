@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 15 },
+	{ "item" : "logblock", "count" : 7 }
+  ],
+  "output" : {
+    "item" : "gak47",
+    "count" : 1
+  },
+  "groups" : [ "gunsmith", "weapons", "all" ]
+}

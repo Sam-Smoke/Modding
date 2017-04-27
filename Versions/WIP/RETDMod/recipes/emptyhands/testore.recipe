@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 1 },
+    { "item" : "money", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "testore",
+    "count" : 10
+  },
+  "duration" : 0,
+  "groups" : [ "plain", "all", "other" ]
+}
