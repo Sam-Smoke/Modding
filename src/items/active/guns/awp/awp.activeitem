@@ -22,7 +22,8 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["awpshot.ogg"]
+      "fire" : ["awpshot.ogg"],
+	  "altFire" : [ "awpshot.ogg" ]
     }
   },
 
@@ -79,18 +80,17 @@
     }
   },
 
-  
+  "altAbilityType" : "piercingshot",
   "altAbility": {
     "name" : "Piercing Shot",
     "type" : "piercingshot",
-    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
     "class" : "AltFireAttack",
 
     "projectileType" : "piercingbullet",
     "projectileParameters" : {
       "piercing" : true
     },
-    
+	
 	"fireTime" : 1.46,
     "baseDps" : 306.13,
     "baseDamageMultiplier" : 1.0,
