@@ -1,0 +1,123 @@
+{
+  "itemName" : "nova",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "C4$hm4k3r",
+  "shortdescription" : "Nova",
+  "tooltipKind" : "base",
+  "category" : "shotgun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","shotgun"],
+  "level" : 1,
+
+  "inventoryIcon" : "nova.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "nova.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["novashot.ogg"],
+	  "altFire" : [ "novashot.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.7, 0.0],
+  "muzzleOffset" : [2.6, 0.4],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.88,
+    "baseDps" : 274.56,
+    "energyUsage" : 11,
+    "inaccuracy" : 0.15,
+
+    "projectileCount" : 12,
+    "fireType" : "auto",
+
+    "projectileType" : "standardbullet",
+    "projectileParameters" : {
+      "knockback" : 5
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "piercingshot",
+  "altAbility": {
+    "name" : "Piercing Shot",
+    "type" : "piercingshot",
+    "class" : "AltFireAttack",
+
+    "projectileType" : "piercingbullet",
+	"projectileCount" : 12,
+    "projectileParameters" : {
+      "piercing" : true
+    },
+	
+    "fireTime" : 0.88,
+    "baseDps" : 274.56,
+    "energyUsage" : 22,
+    "inaccuracy" : 0.15,
+	
+    "stances" : {
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
