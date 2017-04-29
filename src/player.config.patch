@@ -31,6 +31,13 @@
     "op": "add",
     "path": "/defaultBlueprints/tier1/-",
     "value": {
+      "item": "nova"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
       "item": "gak47"
     }
   },
